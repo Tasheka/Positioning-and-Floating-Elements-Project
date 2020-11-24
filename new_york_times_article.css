@@ -1,0 +1,33 @@
+header{
+    position: relative;
+  text-align: center;
+  font-size: 250%;
+  font-style: italic;
+ font-weight: bold;
+}
+
+
+img{
+    width: 90%;
+    position: relative;
+    left: 7%;
+}
+
+article {
+  margin: 30%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pics{
+  width: 160%;
+  position: relative;
+  
+}
+
+p {
+    font-size: 150%;
+    font-style: inherit;
+}
+
