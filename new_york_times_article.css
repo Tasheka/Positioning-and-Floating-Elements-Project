@@ -66,6 +66,14 @@ aside {
   text-decoration: none;
 }
 
+.copyrightLine a {
+  text-decoration: none;
+}
+
+.popular a {
+  text-decoration: none;
+}
+
 .footer_container_items a:hover {
   text-decoration: underline;
 }
@@ -78,7 +86,6 @@ aside {
 
 .editorPickItems {
   display: flex;
-
 }
 
 .more {
@@ -97,10 +104,6 @@ aside {
   font-weight: bold;
 }
 
-.popular a {
-  text-decoration: none;
-}
-
 .imageText {
   display: flex;
 }
@@ -111,11 +114,6 @@ aside {
   margin-right: 3%;
   justify-content: space-between;
   font-size: 80%;
-}
-
-
-.copyrightLine a {
-  text-decoration: none;
 }
 
 .copyrightLine a:hover {
