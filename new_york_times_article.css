@@ -35,7 +35,7 @@ header {
 }
 
 article {
-  margin: 20%; 
+  margin: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
