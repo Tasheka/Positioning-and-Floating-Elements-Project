@@ -1,5 +1,5 @@
-body{
-  color:black;
+body {
+  color: black;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -10,34 +10,28 @@ body{
   justify-content: center;
 }
 
-.nav-bar{
-   margin-top: 0;
+.nav-bar {
+  margin-top: 0;
   align-self: flex-start;
   display: flex;
   justify-content: space-around;
-
-  border: 1px solid black;
-  position:fixed;
+  position: fixed;
   background-color: white;
   width: 100%;
   height: 5%;
   border: solid grey 0.5px;
 }
 
-.nav-bar a .bar-title{
-  text-align: center;
-}
-
-.nav-bar a .bar-title{
+.nav-bar a .bar-title {
   text-align: right;
 }
 
-header{
-    position: relative;
+header {
+  position: relative;
   text-align: center;
   font-size: 250%;
   font-style: italic;
- font-weight: bold;
+  font-weight: bold;
 }
 
 article {
@@ -47,84 +41,83 @@ article {
   justify-content: center;
 }
 
-img{
-  display:block;
+img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
 p {
-    font-size: 150%;
-    font-style: inherit;
+  font-size: 150%;
+  font-style: inherit;
 }
 
-aside{
-  float:right;
+aside {
+  float: right;
 }
 
-.footer_container_items{
-  display:flex;
+.footer_container_items {
+  display: flex;
   flex-direction: column;
 }
 
-.footer_container_items a{
-  text-decoration:none;
+.footer_container_items a {
+  text-decoration: none;
 }
 
-.footer_container_items a:hover{
-  text-decoration:underline;
+.footer_container_items a:hover {
+  text-decoration: underline;
 }
 
-.footer_container{
-  display:flex;
+.footer_container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.editorPickItems{
+.editorPickItems {
   display: flex;
 
 }
 
-.more{
-  display:flex;
+.more {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.suggested{
-  display:flex;
+.suggested {
+  display: flex;
 }
 
-.popular{
-  display:flex;
+.popular {
+  display: flex;
   flex-direction: column;
   font-size: 18px;
   font-weight: bold;
 }
 
-.popular a{
-  text-decoration:none;
+.popular a {
+  text-decoration: none;
 }
 
-.imageText{
-  display:flex;
-}
-
-.copyrightLine{
+.imageText {
   display: flex;
-  margin-left:3%;
-  margin-right:3%;
+}
+
+.copyrightLine {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
   justify-content: space-between;
   font-size: 80%;
 }
 
 
-.copyrightLine a{
-  text-decoration:none;
+.copyrightLine a {
+  text-decoration: none;
 }
 
-.copyrightLine a:hover{
-  text-decoration:underline;
+.copyrightLine a:hover {
+  text-decoration: underline;
 }
-
