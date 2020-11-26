@@ -12,7 +12,7 @@ body {
 
 .icon {
   padding: 5px;
-  height:15px;
+  height: 15px;
   font-size: 30px;
   width: 15px;
   text-align: center;
@@ -23,27 +23,27 @@ body {
   margin-right: 10px;
 }
 
-.social_media{
+.social_media {
   display: flex;
   justify-content: flex-end;
-  width:70%;
-  float:right;
+  width: 70%;
+  float: right;
   align-self: center;
 }
 
-.date_social{
-  display:flex;
+.date_social {
+  display: flex;
 }
 
-#date{
-  float:left;
+#date {
+  float: left;
 }
 
 .nav-bar {
-  z-index:1;
+  z-index: 1;
   overflow: hidden;
   top: 0;
-  left:0;
+  left: 0;
   align-self: flex-start;
   display: flex;
   justify-content: space-around;
