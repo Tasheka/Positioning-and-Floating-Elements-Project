@@ -25,6 +25,19 @@ body {
   border: solid grey 0.5px;
 }
 
+.hamburgerF {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger {
+  width: 17px;
+  height: 2px;
+  background-color: black;
+  margin: 1px 0;
+}
+
 .nav-button {
   background-color: steelblue;
   color: white;
