@@ -25,6 +25,11 @@ body {
   border: solid grey 0.5px;
 }
 
+.nav-button {
+  background-color: steelblue;
+  color: white;
+}
+
 .nav-bar a .bar-title {
   text-align: right;
 }
