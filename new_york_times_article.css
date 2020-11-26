@@ -11,7 +11,10 @@ body {
 }
 
 .nav-bar {
-  margin-top: 0;
+  z-index:1;
+  overflow: hidden;
+  top: 0;
+  left:0;
   align-self: flex-start;
   display: flex;
   justify-content: space-around;
