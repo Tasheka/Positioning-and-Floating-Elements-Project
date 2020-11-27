@@ -75,16 +75,10 @@ header {
 }
 
 .par1 {
-  /*position: absolute;*/
-  /*bottom: 20px;
-  right: 20px;*/
-  /*background-color: black;*/
   color: black;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  height:20%;
+  height: 20%;
 }
 
 .text_on_image {
@@ -94,14 +88,9 @@ header {
 
 .text {
   position: absolute;
-  width:100%;
-  /*bottom: 20px;
-  right: 20px;*/
-  /*background-color: black;*/
+  width: 100%;
   color: black;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 10px;
