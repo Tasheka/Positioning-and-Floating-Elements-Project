@@ -74,6 +74,39 @@ header {
   justify-content: center;
 }
 
+.par1 {
+  /*position: absolute;*/
+  /*bottom: 20px;
+  right: 20px;*/
+  /*background-color: black;*/
+  color: black;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  display:flex;
+  flex-wrap: wrap;
+  height:20%;
+}
+
+.text_on_image {
+  position: relative;
+
+}
+
+.text {
+  position: absolute;
+  width:100%;
+  /*bottom: 20px;
+  right: 20px;*/
+  /*background-color: black;*/
+  color: black;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
 .latest {
   display: flex;
   align-items: flex-end;
