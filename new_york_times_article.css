@@ -74,6 +74,11 @@ header {
   justify-content: center;
 }
 
+.latest {
+  display: flex;
+  align-items: flex-end;
+}
+
 .sataliteImages {
   width: 60%;
   display: block;
@@ -127,8 +132,19 @@ p {
   color: black;
 }
 
+.more a {
+  text-decoration: none;
+  color: black;
+}
+
+.editorPickItems a {
+  text-decoration: none;
+  color: black;
+}
+
 .popular a {
   text-decoration: none;
+  color: black;
 }
 
 .footer_container_items a:hover {
@@ -143,16 +159,19 @@ p {
 
 .editorPickItems {
   display: flex;
+  justify-content: space-between;
+
 }
 
 .more {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .suggested {
   display: flex;
+  justify-content: space-between;
 }
 
 .popular {
