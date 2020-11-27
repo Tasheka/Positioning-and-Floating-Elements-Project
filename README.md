@@ -8,16 +8,13 @@ This project clones the New York Times Artice webpage "Space Ripples Reveal Big 
 
 ----
 - HTML
-- CSS
+- CSS  
 
-----
 **Live Demo:**
 
 ----
-- Our cloned copy: https://tasheka.github.io/Positioning-and-Floating-Elements-Project/
-- The original page: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+- Our cloned copy: https://tasheka.github.io/Positioning-and-Floating-Elements-Project/  
 
-----
 **Authors:**
 
 ----
@@ -29,27 +26,23 @@ This project clones the New York Times Artice webpage "Space Ripples Reveal Big 
 - Github: https://github.com/PaulClue
 - Linkedln: https://github.com/PaulClue
 
-----
 **Contributing:**
 
 ----
-Contributions and feature requests are welcome!
+Contributions and feature requests are welcome!  
 
-----
 **Issues:**
 
 ----
-Issue request are welcome!
+Issue request are welcome!  
 
-----
 **Feel free to check the link:**
 
 ----
-https://github.com/Tasheka/Positioning-and-Floating-Elements-Project/issues
+The original page: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0  
 
-----
 **Show your support**
 
 ----
-Give a star if you like this project!
+Give a star if you like this project!  
 
