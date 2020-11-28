@@ -11,34 +11,42 @@
 
   <body>
     <div class="nav-bar">
-    <div style="display: flex">  
+    <div style="display: flex; width:100%;"> 
+      
+      <div style="align-self: center; margin-left: 10px;">
     <a href="#" style="text-decoration: none; color:black; align-self:center;"> <i style="align-self: center; margin: 0; margin-left: 20px; margin-right: 20px;"  class="fa fa-bars"> </i> </a>
     <a href="#" style="text-decoration: none; color:black; align-self:center;"> <i style="align-self: center; margin:0; margin-right: 20px;" class="fa fa-search"></i> </a>
     </div>
-    <a href=# style="font-weight: bold; color: black; align-self: center; margin-left: 0;"> SPACE & COSMOS </a>  
-    <a href="#" style="align-self:center; width:50%; ">
-    <img src = "images/logo.jpg" alt = "NY Times logo" style="width:225px;"><!--This image is a screen shot from the article-->
+    <a href=# style="font-weight: bold; color: black; align-self: center; margin-left: 0; text-decoration: none;"> SPACE & COSMOS </a>  
+    </div>
+
+    <a href="#" style="width:50%;">
+    <img src = "images/logo.jpg" alt = "NY Times logo" style="width:225px; margin-right:450px;"><!--This image is a screen shot from the article-->
     </a>
   
       <!--a href="#" class="nav-button"-->
+      <div style="display:flex;">
       <form action="#">
-      <input type="submit" class="but" value="SUBSCRIBE NOW" style="font-weight: bold; margin-top:5px; font-size: 10px; border-radius:5%; padding-top: 7px; height:25px; color:white; background-color: steelblue; border:steelblue">
+      <input type="submit" class="but" value="SUBSCRIBE NOW" style="font-weight: bold; margin-top:5px; margin-right:5px; font-size: 10px; border-radius:5%; padding-top: 7px; height:30px; width:120px; color:white; background-color: steelblue; border:steelblue">
      </form>
       <!--/a-->
 
       <!--a href="#" class="nav-button" style="text-align: center"-->
         <form action="#">
-          <input type="submit" class="but" value="LOGIN" style="font-weight: bold; margin-top:5px; font-size: 10px; border-radius:5%; padding-top: 7px; color:white; height: 25px;background-color: steelblue; border:steelblue">
-         </form>      <!--/a-->
+          <input type="submit" class="but" value="LOG IN" style="font-weight: bold; margin-right: 15px; margin-left: 5px; margin-top:5px; font-size: 10px; border-radius:5%; padding-top: 7px; color:white; height: 30px; width: 60px; background-color: steelblue; border:steelblue">
+         </form>
+         </div>      <!--/a-->
     </div>
     <!--article-->
        
-    <header style="width:50%; text-align:left; margin-left:auto; margin-right:auto;"> Space Ripples Reveal Big Bang's Smoking Gun </header>
+    <header style="width:50%; text-align:left; margin-bottom:25px; margin-left:auto; margin-right:auto;"> Space Ripples Reveal Big Bang's Smoking Gun </header>
     <img src = "images/nyt_pic1.jpg" alt = "Physicist Alan Guth standing next to a big satalite">
     <h4> Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so
-       quickly in the instant after the Big Bang 13.8 billion years ago. <span> Rick Friedman for The New York Times </span> </h4>
+       quickly in the instant after the Big Bang 13.8 billion years ago. <span style="font-size: 12px;"> Rick Friedman for The New York Times </span> </h4>
 
-      <h4> By Dennis Overbye </h4>
+      <div class="paragraph">
+
+        <h4> By Dennis Overbye </h4>
 
     <div class="date_social">  
     <h5 id="date"> March 17, 2014 </h5>
@@ -50,7 +58,6 @@
     </div>
     </div>
 
-      <div class="paragraph">
         <p> 
           CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford,
           stayed up late with his notebook and equations, venturing far beyond the world of known physics.
@@ -417,7 +424,15 @@
       <h5> A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples
          Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe </h5>
 
-      <button type="button"> READ 615 COMMENTS </button>
+      <div class="botm" style="display:flex;">
+         <button type="button" style="font-weight: bold; margin-bottom: 60px; width: 70%; margin-top:5px; font-size: 12px; border-radius:2%; padding-top: 7px; color:white; height: 40px;background-color: steelblue; border:steelblue"> READ 615 COMMENTS </button>
+
+      <div class="social_media" style="margin-bottom:60px;">
+        <a href="#" class="fa fa-facebook icon"></a>
+        <a href="#" class="fa fa-twitter icon"></a>
+        <a href="#" class="fa fa-share icon"></a>
+      </div>
+      </div>
       </div>
       <!--/article-->
 
@@ -667,8 +682,10 @@
         <a href="#"> Times Journeys </a>
         <a href="#"> Manage My Account </a>
         </div>
+        <!--div class="vl" style="height:150; border-right: 0.5px solid grey; margin:0;"></div-->
 
       <div class="subscribe">
+    
     <h5 style="margin-bottom:0;"> SUBSCRIBE </h5>
     <a href="#" style="font-weight:bold;"> Home Delivery </a>
     <a href="#" style="font-weight:bold;"> Digital Subscriptions</a>
@@ -679,7 +696,7 @@
     <a href="#" style="font-size:12px;"> Corporate Subscription </a>
     <a href="#" style="font-size:12px;"> Education Rate </a>
 
-    <hr>
+    <hr style="width:150px;">
 
     <a href="#" style="font-size:12px;"> Mobile Application </a>
     <a href="#" style="font-size:12px;"> Replica Edition </a>
