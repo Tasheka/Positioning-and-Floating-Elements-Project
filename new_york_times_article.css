@@ -55,9 +55,13 @@ body {
   border-radius: 5%;
   height: 80%;
   font-size: 10px;
-  width:7%;
-  margin-top:5px;
+  width: 7%;
+  margin-top: 5px;
   text-align: center;
+}
+
+.but:hover {
+  cursor: pointer;
 }
 
 .nav-bar a .bar-title {
