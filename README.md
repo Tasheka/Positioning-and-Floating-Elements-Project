@@ -13,7 +13,7 @@ This project clones the New York Times Artice webpage "Space Ripples Reveal Big 
 **Live Demo:**
 
 ----
-- Our cloned copy: http://raw.githack.com/Tasheka/New-York-Times-Article/newArticle/index.html
+- Our cloned copy: http://raw.githack.com/Tasheka/Positioning-and-Floating-Elements-Project/newArticle/index.html
 **Authors:**
 
 ----
