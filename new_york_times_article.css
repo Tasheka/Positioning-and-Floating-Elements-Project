@@ -24,6 +24,7 @@ body {
   width: 70%;
   float: right;
   align-self: center;
+  margin-bottom: 60px;
 }
 
 .date_social {
@@ -87,7 +88,7 @@ body {
 }
 
 .sec {
- font-size: 18px;
+  font-size: 18px;
 }
 
 .lis {
@@ -126,6 +127,7 @@ body {
 
 .footer_logo {
   width: 18%;
+  margin: 0;
 }
 
 .pop_head {
@@ -134,7 +136,7 @@ body {
 
 .pop_list {
   font-weight: normal;
-  size: 21px;
+  font-size: 21px;
 }
 
 .sub_cook {
@@ -144,7 +146,7 @@ body {
 
 .sec_sub {
   font-weight: bold;
-} 
+}
 
 .sub_sec {
   font-size: 12px;
@@ -176,10 +178,6 @@ header {
 
 .images {
   margin-right: 40px;
-}
-
-.social_media {
-  margin-bottom: 60px;
 }
 
 .vid_title {
@@ -278,6 +276,7 @@ header {
   background-color: steelblue;
   border: steelblue;
 }
+
 .head_title {
   width: 50%;
   text-align: left;
@@ -290,7 +289,6 @@ header {
   position: absolute;
 }
 
-
 .botm {
  display: flex;
 }
@@ -298,6 +296,10 @@ header {
 .par1 {
   width: 250px;
   margin-top: 15%;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
 }
 
 .bu {
@@ -312,13 +314,6 @@ header {
   height: 40px;
   background-color: steelblue;
   border: steelblue;
-}
-
-.par1 {
-  color: black;
-  display: flex;
-  flex-wrap: wrap;
-  height: 20%;
 }
 
 .text_on_image {
@@ -352,10 +347,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-.footer_logo {
-  margin: 0;
 }
 
 p {
